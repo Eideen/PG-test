@@ -1,6 +1,8 @@
 # xx. DALI lys overvåking
 Det er et overordnet objekt som visser status og alarmer, styring skjer via objekt 20, Lysstyring.
+
 DALI = Digital Addressable Lighting Interface
+
 Det skal være en per type DALI gruppe, normalt vil dette være:
 
 -	Innkjøringsbelysing portal 1
@@ -35,10 +37,10 @@ Bit «0» til «4» er lagt til for å gi en visuell fremstilling av nå verdi.
 
 Bit «6» og «7» er armaturer som har feilet er definert som:
 
-•	Lampen har ikke antennes etter 20min.
-•	Roterende lampe status (AV, PÅ, AV, PÅ …)
-•	Glødene eller buene lampe oppdaget
-•	Lampens end(avsluttet) levetid tid spenning detektert.
+- Lampen har ikke antennes etter 20min.
+- Roterende lampe status (AV, PÅ, AV, PÅ …)
+-	Glødene eller buene lampe oppdaget
+- Lampens end(avsluttet) levetid tid spenning detektert.
 
 Bit «9» er forvarsel på at mange armaturer kan gi seg.
 
@@ -109,3 +111,4 @@ Timetellere skal være 32 bit. Dersom kun 16 bits tellere støttes skal time tel
 |    Kritisk   høy alarm, % kommunikasjon til armaturer,   grenseverdi    |    Setpunkt   for alarm                                                                                                                                                                                                                                               |
 |    Dimmetid   mellom 2 punkt                                            |    (DALI fade time) tiden det skal   ta å endre å gå fra en verdi til enn annen. Oppgitt i sekunder med 1 komma.    fra 0 til 90,5s, avrundes til nærmeste gyldige verdi.   Denne Parameter bør være med   frem det er definert en vegvesen standard for dimmetid.    |
 
+\newpage
