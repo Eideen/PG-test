@@ -35,10 +35,10 @@ Bit «0» til «4» er lagt til for å gi en visuell fremstilling av nå verdi.
 
 Bit «6» og «7» er armaturer som har feilet er definert som:
 
-•	Lampen har ikke antennes etter 20min.
-•	Roterende lampe status (AV, PÅ, AV, PÅ …)
-•	Glødene eller buene lampe oppdaget
-•	Lampens end(avsluttet) levetid tid spenning detektert.
+- Lampen har ikke antennes etter 20min.
+- Roterende lampe status (AV, PÅ, AV, PÅ …)
+-	Glødene eller buene lampe oppdaget
+- Lampens end(avsluttet) levetid tid spenning detektert.
 
 Bit «9» er forvarsel på at mange armaturer kan gi seg.
 
